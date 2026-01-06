@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "🧬 研究内容"
+title: "🧬 Research"
 permalink: /research/
 ---
 
