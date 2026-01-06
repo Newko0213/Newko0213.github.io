@@ -11,7 +11,7 @@ permalink: /members/
     
     <h3 style="margin-top: 15px; margin-bottom: 5px;">唐展通</h3>
     <p style="font-size: 14px; color: #666; line-height: 1.6;">
-      <strong>研究方向：</strong>生物信息学<br>
+      <strong>研究方向：</strong>基础生物学<br>
       <strong>学校：</strong>东南大学<br>
       <strong>邮箱：</strong>zhantongtang@gmail.com<br>
       <strong>爱好：</strong>陪伴猫咪、烹饪（玉米烙和甑糕很成功！）<br>

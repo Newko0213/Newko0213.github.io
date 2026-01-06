@@ -36,6 +36,7 @@ header_pages:
   - members.md
   - protocol.md
   - code.md
+  - gallery.md
   - address.md
 
 # Exclude from processing.
