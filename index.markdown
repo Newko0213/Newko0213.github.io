@@ -129,6 +129,11 @@ function showSlides() {
   <div style="flex: 1; min-width: 280px; background: #fafafa; padding: 20px; border-radius: 8px;">
     <h3 style="border-bottom: 2px solid #4a90e2; padding-bottom: 10px; margin-top: 0;">📢 NEWS</h3>
     <ul style="padding-left: 20px; line-height: 1.8;">
+
+      <li>
+        <strong>2026-01-06:</strong> <br>
+        ✈️ 唐展通将于1.7日参加遗传与发育生物学与毕业预答辩。
+      </li>
       <li>
         <strong>2026-01-05:</strong> <br>
         ✈️ 唐展通将于1.14日前往广东参加会议。
