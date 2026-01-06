@@ -85,7 +85,7 @@ permalink: /gallery/
     <div class="gallery-info">
       <h3 class="gallery-title">玄武湖游玩</h3>
       <p class="gallery-desc">
-        2025年4月，处在樱花季的南京很美（樱花季在清明节前后，可别错过）。
+        2025年4月，处在樱花季的南京很美（樱花季在清明节前后，可别错过！）。
       </p>
     </div>
   </div>
@@ -99,5 +99,106 @@ permalink: /gallery/
       </p>
     </div>
   </div>
+
+  <div class="gallery-card">
+    <img src="/assets/images/sister_rabbit.jpg" class="gallery-img" alt="Research">
+    <div class="gallery-info">
+      <h3 class="gallery-title">小兔子</h3>
+      <p class="gallery-desc">
+        2024年某月，师姐将兔子带来实验室，很乖巧，我们都很喜欢！
+      </p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
+    <img src="/assets/images/cell_exp.jpg" class="gallery-img" alt="Research">
+    <div class="gallery-info">
+      <h3 class="gallery-title">细胞实验中。。。</h3>
+      <p class="gallery-desc">
+        2024年9月大概，经过6个月的基础实验，我终于开始细胞实验了，很激动也很小心翼翼。
+      </p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
+    <img src="/assets/images/lab_western.jpg" class="gallery-img" alt="Research">
+    <div class="gallery-info">
+      <h3 class="gallery-title">western</h3>
+      <p class="gallery-desc">
+        2024年某月，我认为western中蛋白成功从gel到membrane上让我很有成就感。
+      </p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
+    <img src="/assets/images/lab_cat.jpg" class="gallery-img" alt="Research">
+    <div class="gallery-info">
+      <h3 class="gallery-title">lab_cat</h3>
+      <p class="gallery-desc">
+        在生命健康高等研究院学习之初遇到的猫妈妈，治愈我那段时光。
+      </p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
+    <img src="/assets/images/lab_babycat.jpg" class="gallery-img" alt="Research">
+    <div class="gallery-info">
+      <h3 class="gallery-title">lab_cat</h3>
+      <p class="gallery-desc">
+        猫妈妈的孩子，直到和妈妈一起被送往救助站，祝愿幸福！
+      </p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
+    <img src="/assets/images/seu.jpg" class="gallery-img" alt="Research">
+    <div class="gallery-info">
+      <h3 class="gallery-title">东南大学四牌楼校区大礼堂</h3>
+      <p class="gallery-desc">
+        2024年某月。
+      </p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
+    <img src="/assets/images/autumn.jpg" class="gallery-img" alt="Research">
+    <div class="gallery-info">
+      <h3 class="gallery-title">东南大学四牌楼校区秋景</h3>
+      <p class="gallery-desc">
+        2024年某月。
+      </p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
+    <img src="/assets/images/sunny.jpg" class="gallery-img" alt="Research">
+    <div class="gallery-info">
+      <h3 class="gallery-title">东南大学四牌楼校区春景</h3>
+      <p class="gallery-desc">
+        2024年某月。
+      </p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
+    <img src="/assets/images/seu_sipailou_campus_snow.jpg" class="gallery-img" alt="Research">
+    <div class="gallery-info">
+      <h3 class="gallery-title">东南大学四牌楼校区雪景</h3>
+      <p class="gallery-desc">
+        2023年12月，南京下雪，美丽的四牌楼。
+      </p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
+    <img src="/assets/images/seu_sipailou_campus_doudou.jpg" class="gallery-img" alt="Research">
+    <div class="gallery-info">
+      <h3 class="gallery-title">兜兜</h3>
+      <p class="gallery-desc">
+        四牌楼校区的顶流-兜兜，目前已经被领养，祝福！
+      </p>
+    </div>
+  </div>
+
 
 </div>

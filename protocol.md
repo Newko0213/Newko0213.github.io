@@ -215,12 +215,6 @@ permalink: /protocol/
     </div>
 
     <div style="margin-bottom: 8px;">
-      <a href="https://app.biorender.com/" target="_blank" style="text-decoration: none;">
-        <span class="icon">🔍</span> Bio-render
-      </a>
-    </div>
-
-    <div style="margin-bottom: 8px;">
       <a href="https://www.cancerrxgene.org/" target="_blank" style="text-decoration: none;">
         <span class="icon">🔍</span> GDSC耐药数据库
       </a>
