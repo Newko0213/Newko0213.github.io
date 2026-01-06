@@ -6,7 +6,7 @@ permalink: /protocol/
 
 <div style="text-align: center; margin-bottom: 40px; color: #666; font-style: italic; font-size: 16px;">
   <p>
-    protocol有许多是有师姐整理，再次特别感谢！<br>
+    protocol有许多是由师姐整理，再此特别感谢！<br>
   </p>
 </div>
 
