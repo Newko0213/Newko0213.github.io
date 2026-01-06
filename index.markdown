@@ -2,11 +2,127 @@
 layout: default
 ---
 
-<div style="margin-bottom: 40px; text-align: center;">
-    <img src="/assets/images/banner.jpg" 
-         alt="Lab Banner" 
-         style="width: 100%; height: 350px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+<style>
+/* 轮播容器 */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin-bottom: 40px;
+  border-radius: 8px; 
+  overflow: hidden; /* 保证圆角不被图片遮住 */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* 阴影效果 */
+}
+
+/* 每一张幻灯片默认隐藏 */
+.mySlides {
+  display: none;
+}
+
+/* 图片样式 */
+.banner-img {
+  width: 100%;
+  height: 350px; /* 这里控制高度，可以自己改 */
+  object-fit: cover; /* 保证图片填满不拉伸 */
+  vertical-align: middle;
+}
+
+/* 淡入动画效果 */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* 右下角的小圆点 */
+.dot-container {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 4px;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: white;
+}
+</style>
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <img src="/assets/images/banner.jpg" class="banner-img" alt="Banner 1">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="/assets/images/banner1.jpg" class="banner-img" alt="Banner 2">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="/assets/images/banner2.jpg" class="banner-img" alt="Banner 3">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="/assets/images/banner3.jpg" class="banner-img" alt="Banner 3">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="/assets/images/banner4.jpg" class="banner-img" alt="Banner 3">
+  </div>
+
+  <div class="dot-container">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+  </div>
+
 </div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  
+  // 隐藏所有图片
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  
+  // 索引+1
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  
+  // 取消所有圆点的激活状态
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  
+  // 显示当前图片，激活当前圆点
+  slides[slideIndex-1].style.display = "block";  
+  if (dots.length > 0) {
+      dots[slideIndex-1].className += " active";
+  }
+  
+  // 每 4000 毫秒 (4秒) 切换一次
+  setTimeout(showSlides, 4000); 
+}
+</script>
 
 <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: space-between;">
 
