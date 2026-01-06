@@ -86,6 +86,9 @@ permalink: /protocol/
     <a href="/assets/protocol/extract_plasmid.pdf" class="pdf-link">
       <span class="icon">📄</span> 质粒抽提与转化.pdf 
     </a>
+    <a href="/assets/protocol/nu_cy.pdf" class="pdf-link">
+      <span class="icon">📄</span> 核质分离.pdf 
+    </a>
   </div>
 </details>
 
