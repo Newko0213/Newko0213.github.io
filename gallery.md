@@ -211,6 +211,16 @@ permalink: /gallery/
   </div>
 
   <div class="gallery-card">
+    <img src="/assets/images/shiyigong.jpg" class="gallery-img" alt="Research">
+    <div class="gallery-info">
+      <h3 class="gallery-title">施一公教授</h3>
+      <p class="gallery-desc">
+        2024年1月，我很幸运抢到了施一公教授的讲座，即便是在九龙湖校区。我对生物学充满兴趣！ 
+      </p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
     <img src="/assets/images/seu_sipailou_campus_snow.jpg" class="gallery-img" alt="Research">
     <div class="gallery-info">
       <h3 class="gallery-title">东南大学四牌楼校区雪景</h3>
