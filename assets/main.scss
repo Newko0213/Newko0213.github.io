@@ -235,3 +235,39 @@ input[type="text"], textarea {
 .site-title:hover .cat-header-logo {
     transform: rotate(15deg);
 }
+
+/* --- 页脚底部小猫彩蛋样式 --- */
+
+.footer-cats-container {
+  display: flex;             /* 横向排列 */
+  justify-content: center;   /* 居中 */
+  gap: 30px;                 /* 猫咪之间的间距 */
+  width: 100%;
+
+  /* 位置调整 */
+  margin-top: 60px;          /* 距离上方正文内容远一点，形成呼吸感 */
+  margin-bottom: -25px;      /* 稍微向下压，让它们看起来是踩在 Footer 的边线上 */
+
+  opacity: 0.5;              /* 半透明，作为彩蛋不要太抢眼，低调的高级 */
+  pointer-events: none;      /* 不阻挡点击 */
+}
+
+.footer-cat-svg {
+  width: 50px;               /* 稍微缩小一点，更精致 */
+  height: auto;
+  stroke: #666;              /* 使用中灰色，比纯黑更柔和 */
+  stroke-width: 1.5px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: all 0.3s ease;
+  pointer-events: auto;      /* 鼠标可以感应 */
+  cursor: pointer;
+}
+
+/* 互动：鼠标放上去变黑、跳动 */
+.footer-cat-svg:hover {
+  transform: translateY(-5px) scale(1.1);
+  stroke: #000;              /* 变回黑色 */
+  opacity: 1;                /* 变不透明 */
+}
