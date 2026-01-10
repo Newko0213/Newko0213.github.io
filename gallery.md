@@ -151,6 +151,16 @@ permalink: /gallery/
   </div>
 
   <div class="gallery-card">
+    <img src="/assets/images/baby_dabao.jpg" class="gallery-img" alt="Research">
+    <div class="gallery-info">
+      <h3 class="gallery-title">baby大宝</h3>
+      <p class="gallery-desc">
+        2024年6月大概，我领养了大宝。是否觉得和未来的毛色有不同呢？
+      </p>
+    </div>
+  </div>
+
+  <div class="gallery-card">
     <img src="/assets/images/lab_western.jpg" class="gallery-img" alt="Research">
     <div class="gallery-info">
       <h3 class="gallery-title">western</h3>
